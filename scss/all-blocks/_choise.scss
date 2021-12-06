@@ -1,0 +1,123 @@
+.main-middle .container{
+	position: relative;
+	margin-bottom: 350px;
+	background-color: #000000;
+	padding-top: 112px;
+	padding-bottom: 318px;
+	border-radius: 5px;
+}
+
+
+.main-middle__heading{
+	margin: 0;
+	margin-bottom: 32px;
+	font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+	color: #FEFCF7;
+	
+
+}
+
+.main-middle__paragraf{
+	max-width: 540px;
+    width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.quality-list{
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	max-width: 1110px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+	list-style-type: none;
+	top: 367px;
+	left: 105px;
+	gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.quality-list__item{
+	max-width: 350px;
+    width: 100%;
+	padding-top: 200px;
+	padding-bottom: 48px;
+	background-color: #0E8784;
+	border-radius: 8px;
+
+}
+/*.quality-list__item::before{
+	background-image: url("../images/Shape.png");
+	width: 71px;
+	height: 72px;
+	content: "";
+	display: block;
+	background-repeat: no-repeat;
+}*/
+.quality__item__heading{
+	margin: 0;
+	margin-bottom: 24px;
+	font-family: Fraunces 9pt;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 32px;
+	letter-spacing: 0px;
+	text-align: center;
+	font-size: 24px;
+	color: #FEFCF7;
+
+}
+.quality__item__paragraf{
+	max-width: 255px;
+    width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: center;
+	font-size: 16px;
+	color:#FEFCF7 ;
+
+}
+
+
+@media only screen and(max-width: 768px){
+
+    .main-middle .container{
+        padding-bottom: 365px;
+        text-align: center;
+    }
+    
+    .main-middle__heading{
+        font-style: 32px;
+    }
+    .main-middle__paragraf{
+        font-style: 15px;
+    }
+
+    .quality-list{
+        flex-direction: column;
+        left: 0;
+        align-items: center;
+    }
+}
