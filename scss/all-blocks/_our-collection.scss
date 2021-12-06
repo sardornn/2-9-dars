@@ -7,6 +7,7 @@
 	background-image: url("../images/home/Group\ 13.png");
 	max-width: 1111px;
 	background-repeat: no-repeat;
+	flex-wrap: wrap;
 
 }
 
@@ -62,15 +63,13 @@
 		margin: 0;
 		padding: 0;
 		padding-top: 59px;
-		background-image: url("../images/home/our\ collection.png");
+		background-image: url("../../images/home/our\ collection.png");
 		background-position:top 0;
 		
         
     }
 
-	.collection__div{
-		
-	}
+	
 	.collection__item{
 		max-width: 690px;
 		width: 100%;
@@ -103,5 +102,42 @@
 	
 		margin-bottom: 32px;
 		margin-right: 36px;
+	}
+}
+
+
+
+
+@media only screen and (max-width:425px){
+	.collection-list{
+		background-image: url("../images/home/Group\ 7\ \(1\).png");
+	}
+
+
+	.collection__item{
+		flex-direction: column;
+		margin: 0;
+		padding-left: 0;
+		padding-bottom: 48px;
+		align-items: center;
+		justify-content: center;
+	}
+	.collection__img{   
+		margin: 0;
+		margin-bottom: 24px;
+	}
+		
+
+
+
+	
+	.collection__item__heading{
+		margin: 0;
+		padding: 0;
+		margin-bottom: 16px;
+		text-align: center;
+	}
+	.collection__item__paragraf{
+		text-align: center;
 	}
 }
