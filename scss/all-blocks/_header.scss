@@ -39,17 +39,20 @@
 
     .header--active .nav{
         position: absolute;
+        margin-top: 130px;
         top: 0;
-        right: 20px;
+        right: 0;
+        left: 0;
         bottom: 0;
         z-index: 100;
         display: block;
+        background-image: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
     }
 
     .header--active .nav__list{
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 32px;
     }
 
     .header--active .nav__item + .nav__item{

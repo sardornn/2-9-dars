@@ -28,3 +28,38 @@
 .nav__link--active {
 	color: #333d4b;
 }
+
+
+/*footer-nav */
+
+
+.footer__nav__list {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer__nav__item + .footer__nav__item {
+	margin-left: 33px;
+}
+
+.footer__nav__link {
+	color: #83888f;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.923077px;
+	text-transform: uppercase;
+	transition: color 0.2s ease;
+}
+
+.footer__nav__link:hover {
+	color: #333d4b;
+}
+
+.footer__nav__link--active {
+	color: #333d4b;
+}
