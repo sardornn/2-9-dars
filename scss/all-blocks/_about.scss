@@ -7,7 +7,9 @@
     padding-left: 85px;
     background-image: url("../images/about/Object.png");
     background-repeat: no-repeat;
-    background-position: center     ;
+    background-position: center ;
+    border-radius: 10px;
+    background-size: cover ;
     
 }
 .about-hero-heading{
@@ -19,7 +21,7 @@
     line-height: 48px;
     letter-spacing: 0px;
     text-align: left;
-    font-family: Fraunces 9pt;
+    font-family: "Fraunces" ;
     color: #FEFCF7;
 
 
@@ -34,7 +36,7 @@
     line-height: 26px;
     letter-spacing: 0px;
     text-align: left;
-    font-family: Barlow;
+    font-family: "Barlow";
     color: #FEFCF7;
 
 
@@ -54,8 +56,35 @@
         line-height: 40px;
     }
     .about-hero-paragraf{
+        max-width: 398px;
         font-size: 15px;
         line-height: 25px;
       
     }
+}
+
+@media only screen and(max-width:425px){
+    .about-hero-section{
+        padding: 0;
+        padding-top: 111px;
+        background-image: url("../../images/about/Object-425.png");
+        padding-bottom: 87px;
+        border-radius: 5px;
+    }
+    .about-hero-heading{
+        margin: 0 auto;
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+
+    }
+    .about-hero-paragraf{
+        max-width: 280px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
 }
