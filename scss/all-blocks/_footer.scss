@@ -58,7 +58,9 @@
 }
 
 @media only screen and (max-width:425){
+	
 	.footer__nav__list{
+		display: flex;
         flex-direction: column;
         margin-top: 50px;
 	}

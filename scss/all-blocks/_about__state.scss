@@ -1,0 +1,201 @@
+.state__inner{
+    
+    margin-bottom: 168px;
+    padding-left: 85px;
+    
+}
+
+.state-title{
+    margin-bottom: 70px;
+    font-family: 'Fraunces','Arial', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83888F;
+}
+
+.state{
+    display: flex;
+}
+.state__item{
+    max-width: 285px;
+    width: 100%;
+    margin-right: 85px;
+
+}
+
+   
+.state__list{
+   
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.state__title{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Fraunces','Arial', sans-serif;
+
+}
+
+.state__list__item{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Barlow';
+    color: #333D4B;
+
+}
+
+
+.state__UK{
+    &::before{
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 50px;
+        background-image: url("../images/about/Combined\ Shape\ \(1\).png");
+        background-position: left 0 center;
+        background-size: 40px 50px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.state__canada{
+   
+    &::before{
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 50px;
+        background-image: url("../images/about/Combined\ Shape\ \(2\).png");
+        background-position: left 0 center;
+        background-size: 40px 50px;
+        background-repeat: no-repeat;
+    }
+}
+
+.state__aus::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background-image: url("../images/about/Combined\ Shape\ \(3\).png");
+    background-position: left 0 center;
+    background-size: 40px 50px;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width:768px){
+    .state__inner{
+    
+        margin-bottom: 144px;
+        padding-left: 0px;
+        
+    }
+
+    .state__item{
+        max-width: 225px;
+        width: 100%;
+        margin-right: 10px;
+    
+    }
+    .state__title{
+        font-size: 24px;
+    }
+
+}
+@media only screen and (max-width:425px){
+    .state__inner{
+    
+        margin-bottom: 120px;
+        padding: 0px;
+        
+    }
+
+    .state-title{
+        text-align: center;
+    }
+    .state{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .state__item{
+        max-width: 325px;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 80px;
+    
+    }
+
+    .state__item::before{
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .state__title{
+        font-size: 28px;
+        text-align: center;
+    }
+    .state__list__item{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+
+    
+
+.state__UK{
+    &::before{
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 50px;
+        background-image: url("../images/about/Combined\ Shape\ \(1\).png");
+        background-position: left 0 center;
+        background-size: 40px 50px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.state__canada{
+   
+    &::before{
+        
+       
+        background-position:right 50%  center;
+        
+      
+    }
+}
+
+.state__aus::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background-image: url("../images/about/Combined\ Shape\ \(3\).png");
+    background-position: left 0 center;
+    background-size: 40px 50px;
+    background-repeat: no-repeat;
+}
+
+}

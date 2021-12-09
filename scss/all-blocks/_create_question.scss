@@ -1,0 +1,179 @@
+.question .container{
+    display: flex;
+}
+
+
+.question_list{
+    margin: 0;
+    padding: 0;
+    padding-left: 85px;
+    padding-right: 85px;
+    list-style-type: none;
+}
+.question_item{
+    width: 255px;
+    margin: 0;
+    padding: 25px;
+    padding-left: 0;
+    border-bottom: 1px solid #83888F;
+}
+.question_link{
+    display: block;
+    text-decoration: none;
+    color:  #83888F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-family: Fraunces 9pt;
+
+
+}
+
+
+.question__right{
+    width: 730px;
+    padding-top: 24px;
+
+}
+.form{
+    display: flex;
+    width: 730px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+    
+}
+.form__heading{
+    margin: 0;
+    margin-bottom: 56px;
+   
+    padding: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    font-family: Fraunces 9pt;
+    color: #83888F;
+
+}
+.span{
+    display: block;
+    width: 228px;
+    margin: 0;
+    padding: 0;
+    padding-top: 32px;
+    padding-left: 28px;
+    padding-bottom: 84px;
+    border-radius: 8px;
+    background-color: #F4F1EB;
+    color: #333D4B;
+    
+}
+.input__heading{
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: Fraunces 9pt;
+    
+}
+.input__paragraf{
+    width: 172px;
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;;
+    
+}
+.input:checked + .span{
+    background-color: #0E8784;
+    color: #FFFFFF;
+}
+
+
+
+
+.question-box{
+    margin-bottom: 40px;
+    width: 730px;
+    background-color: #2C343E;
+}
+
+.question-box__title{
+    padding-top: 31px;
+    margin-bottom: 8px;
+    padding-left: 65px;
+    font-family: 'Barlow','Arial',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.question-box__aforizm{
+    margin: 0;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    
+}
+
+
+q{
+    color: #0E8784;
+}
+
+
+.question__link{
+    width: 217px;
+    margin-left: 513px;
+    margin-bottom: 168px;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #0e8784;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: inline-block;
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+
+    .question .container{
+        flex-direction: column;
+    }
+    .question_item{
+        display: none;
+    }
+}
